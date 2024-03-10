@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  font-family: 'Roboto';
+}
+.container{
+  display: grid;
+  grid-template-columns: 0.8fr 4fr;
+  grid-template-rows: 199px 1fr;
+}
+.sidebar{
+  grid-row: 1 / 3;
+  display: grid;
+  background-color: rgb(41, 165, 206);
+  grid-template-rows: 100px 1fr 2fr;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-bottom: 16px;
+  color: white;
+  gap: 50px;
+  padding-right: 20px;
+}
+.main{
+  grid-row: 2 / 4;
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+ul{
+  list-style: none;
+}
+.sidebar img{
+  height: 30px;
+  width: 30px;
+}
+.side-divs{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h3{
+  flex: 1;
+  margin-left: 10px;
+}
+.third-row{
+  grid-row: 3;
+}
+.first-row{
+  margin-top: 20px;
+}
+.third-row div, .second-row div{
+  margin: 10px 0px 10px 0px;
+}
+h3{
+  margin-left: 15px;
+}
+#dash{
+  font-weight: 700;
+}
+.img-to-edit{
+  height: 100px;
+  width: 150px;
+}
+#dash-img{
+  height: 50px;
+  width: 50px;
+}
+.header{
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100px 100px;
+  gap: 5px;
+  box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.29);
+  z-index: 999;
+}
+.prof-section{
+  grid-row: 1 / 2;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+}
+.prof-section p{
+  font-weight: 600;
+  font-size: 26px;
+}
+.buttons-section{
+  display: flex;
+  align-items:center ;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: space-around;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+button{
+  padding: 10px 26px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(41, 165, 206);
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+.search-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-section input{
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(215, 215, 215);
+  margin-left: 20px;
+}
+.big-prof{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+.p{
+  line-height: 1.4;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+.abs-p{
+  font-weight: 500;
+}
+#p-weight{
+  font-weight: 700;
+}
+input{
+  width: 600px;
+  padding: 8px 1px;
+  outline: none;
+}
+.big-prof img{
+  position: relative;
+  bottom: 15px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e5e7eb;
+}
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  padding: 20px;
+  gap: 15px;
+  margin-top: 10px;
+}
+.cards-container .card {
+  background-color: #FFFFFF;
+  color: black;
+  text-align: center;
+  height: 236px;
+  border-left: 10px #fbbf24 solid;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  line-height: 1.6;
+  box-shadow: 3px 3px 3px #d1d5db;
+}
+
+.card p {
+  color: black;
+  font-size: 23px;
+}
+
+.img img{
+  height: 30px;
+  width: 30px;
+}
+.img{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 14px;
+}
+.anouncement-section{
+  grid-column: 2;
+  margin-top: 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  box-shadow: 3px 3px 3px #d1d5db;
+}
+.anc-tred-section{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.a-sections{
+  padding: 20px;
+}
+.m{
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+.img-section-tred{
+  display: flex;
+  margin: 10px;
+}
+.img-section-tred img{
+  height: 60px;
+  width: 60px;
+}
+.trendind-section{
+  grid-row: 2;
+  max-height: 400px;
+  padding: 20px;
+  background-color: white;
+  margin: 0px 10px 10px 0px; 
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px #d1d5db;
+}
+.tred-para-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  margin-left: 6px;
+  line-height: 1.3;
+}
+.tag{
+  font-weight: 600;
+  font-size: 20px;
+}
+.tred-h1{
+  text-align: center;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-weight: bold
+}
